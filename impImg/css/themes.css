@@ -1,0 +1,171 @@
+
+/*checkbox 
+*/
+input[type=radio] {
+  display: none;
+}
+
+/* 
+- Style each label that is directly after the input
+- position: relative; will ensure that any position: absolute children will position themselves in relation to it
+*/
+
+#inputOne + label{
+  background: url(patterns/header-profile-skin-1.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  display: block;
+  /*border-radius: 100%;*/
+  position: relative;
+  transition: all 0.4s;
+  border: solid 5px #FFF;
+  box-shadow: 0 0 1px #FFF; /* Soften the jagged edge */
+}
+
+
+/* Provide a border when hovered and when the radio before it is checked */
+#inputOne + label:hover,
+#inputOne:checked + label {
+  border: solid 5px #F00;
+  box-shadow: 0 0 1px #F00; /* Soften the jagged edge */
+}
+
+/* 
+- Create a pseudo element :after when checked and provide a tick
+- Center the content
+*/
+#inputOne:checked + label:after {
+  content: '\2714'; /*content is required, though it can be empty - content: '';*/
+  display: block;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #F00;
+}
+
+
+
+/*second */
+#inputOne1 + label{
+  background: url(patterns/7.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  display: block;
+  /*border-radius: 100%;*/
+  position: relative;
+  transition: all 0.4s;
+  border: solid 5px #FFF;
+  box-shadow: 0 0 1px #FFF; /* Soften the jagged edge */
+}
+
+
+/* Provide a border when hovered and when the radio before it is checked */
+#inputOne1 + label:hover,
+#inputOne1:checked + label {
+  border: solid 5px #F00;
+  box-shadow: 0 0 1px #F00; /* Soften the jagged edge */
+}
+
+/* 
+- Create a pseudo element :after when checked and provide a tick
+- Center the content
+*/
+#inputOne1:checked + label:after {
+  content: '\2714'; /*content is required, though it can be empty - content: '';*/
+  display: block;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #F00;
+}
+
+
+/*third*/
+
+#inputOne2 + label{
+  background: url(patterns/header-profile-skin-3.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  display: block;
+  /*border-radius: 100%;*/
+  position: relative;
+  transition: all 0.4s;
+  border: solid 5px #FFF;
+  box-shadow: 0 0 1px #FFF; /* Soften the jagged edge */
+}
+
+
+/* Provide a border when hovered and when the radio before it is checked */
+#inputOne2 + label:hover,
+#inputOne2:checked + label {
+  border: solid 5px #F00;
+  box-shadow: 0 0 1px #F00; /* Soften the jagged edge */
+}
+
+/* 
+- Create a pseudo element :after when checked and provide a tick
+- Center the content
+*/
+#inputOne2:checked + label:after {
+  content: '\2714'; /*content is required, though it can be empty - content: '';*/
+  display: block;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #F00;
+}
+
+/*fourth*/
+#inputOne3 + label{
+  background: url(patterns/header-profile.png) no-repeat;
+  height: 100px;
+  width: 100px;
+  display: block;
+  /*border-radius: 100%;*/
+  position: relative;
+  transition: all 0.4s;
+  border: solid 5px #FFF;
+  box-shadow: 0 0 1px #FFF; /* Soften the jagged edge */
+}
+
+
+/* Provide a border when hovered and when the radio before it is checked */
+#inputOne3 + label:hover,
+#inputOne3:checked + label {
+  border: solid 5px #F00;
+  box-shadow: 0 0 1px #F00; /* Soften the jagged edge */
+}
+
+/* 
+- Create a pseudo element :after when checked and provide a tick
+- Center the content
+*/
+#inputOne3:checked + label:after {
+  content: '\2714'; /*content is required, though it can be empty - content: '';*/
+  display: block;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #F00;
+}
+/*radio*/

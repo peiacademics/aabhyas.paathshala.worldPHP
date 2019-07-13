@@ -1,0 +1,1 @@
+application/logs/process_log file cleared at 2015-06-15 16:03:09
